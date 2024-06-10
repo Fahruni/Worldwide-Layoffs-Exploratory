@@ -25,7 +25,7 @@ WHERE date BETWEEN '2021-01-01' AND '2022-12-31';
 ```
 Query result:
 
-![question1answer](https://github.com/Fahruni/Worldwide-Layoffs-Exploratory/blob/main/assets/Question1_answer.png)
+![question1answer](assets/Question1_answer.png)
 
 ### **2. What is the average number of layoffs per month?**
 
@@ -42,7 +42,7 @@ FROM (
 
 Query result:
 
-![question2answer](https://github.com/Fahruni/Worldwide-Layoffs-Exploratory/blob/main/assets/Question2_answer.png)
+![question2answer](assets/Question2_answer.png)
 
 ### **3. How do the total layoffs compare between 2021 and 2022?**
 
@@ -56,7 +56,7 @@ GROUP BY Year;
 
 Query result:
 
-![question3answer](https://github.com/Fahruni/Worldwide-Layoffs-Exploratory/blob/main/assets/Question3_answer.png)
+![question3answer](assets/Question3_answer.png)
 
 ### **4. Which companies had the highest number of layoffs?**
 
@@ -71,7 +71,7 @@ LIMIT 10;
 
 Query result:
 
-![question4answer](https://github.com/Fahruni/Worldwide-Layoffs-Exploratory/blob/main/assets/Question4_answer.png)
+![question4answer](assets/Question4_answer.png)
 
 ### **5. What is the average percentage of layoffs per company?**
 
@@ -83,7 +83,7 @@ FROM worldwide_layoffs_staging2;
 
 Query result:
 
-![question5answer](https://github.com/Fahruni/Worldwide-Layoffs-Exploratory/blob/main/assets/Question5_answer.png)
+![question5answer](assets/Question5_answer.png)
 
 ## **Notes**
 
